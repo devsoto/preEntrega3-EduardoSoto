@@ -1,0 +1,19 @@
+
+@import "varColores";
+body{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+@mixin reset-list {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+  }
+
+
+@mixin r-flex-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

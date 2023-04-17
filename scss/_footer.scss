@@ -1,0 +1,22 @@
+@import "varColores";
+@import "base";
+
+footer{
+    .footerPrimario{
+        
+        background-color: #666666;
+            .rrss{
+                @include r-flex-center;
+                justify-content: center;
+            }
+    }
+    .footerPrimario img{
+        padding-right: 15px;
+    }
+    .footerSecundario{
+        text-align: center;
+        background-color: black;
+        color: $colorTexto;
+    }
+}
+

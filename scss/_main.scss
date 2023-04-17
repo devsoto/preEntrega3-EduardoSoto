@@ -1,0 +1,26 @@
+@import "base";
+@import "varColores";
+
+.colChoperas{
+    @include r-flex-center;
+    text-align: left;
+}
+
+.mainNosotros{
+        .imgNosotros{
+            img{
+                filter: grayscale(1);
+                border-radius: 50%;
+            }
+        }
+        h5{
+            color: rgb(61, 102, 163);
+        }
+}
+
+.mainContacto{
+    .contactoPpal{
+        border: 1px solid #ccc; 
+    }
+
+}
