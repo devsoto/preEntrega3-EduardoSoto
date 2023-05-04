@@ -1,69 +1,137 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HappyBeer! Choperas Artesanales</title>
-    <!-- Meta descripcion SEO -->
-    <meta name="keywords" content="Chopera, barril, chopera happybear, cerveza, cerveza artesanal">
-    <meta name="description" content="Somos HappyBear empresa de choperas Artesanales">
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
-    <!-- CSS AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- Hoja de estilo -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <!-- Header -->
-    <header class="container-fluid">
-            <div class="headerPpal ">
-                <nav>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="#">Home</a></li>
-                        <li class="nav-item"><a href="views/choperas.html">Choperas</a></li>
-                        <li class="nav-item"><a href="views/bar.html">Bares</a></li>
-                        <li class="nav-item"><a href="views/nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a href="views/contacto.html">Contacto</a></li>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HappyBeer! Choperas Artesanales</title>
+        <!-- Meta descripcion SEO -->
+        <meta name="keywords" content="Chopera, barril, chopera happybear, cerveza, cerveza artesanal">
+        <meta name="description" content="Somos HappyBear empresa de choperas Artesanales">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+        <!-- CSS AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- BS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- Hoja de estilo -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top opacity-75">
+            <div class="container-fluid">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/choperas.html">Choperas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/bar.html">Bares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/contacto.html">Contacto</a>
+                        </li>
                     </ul>
-                </nav>
-                <div class="container-fluid textoHeader">
-                    <div class="row">
-                        <div class="col-12 col-xl-12">
-                            <h1>HappyBeer! Choperas Artesanales</h1>
+                </div>
+            </div>
+        </nav>
+        <!-- Header -->
+        <header class="container-fluid">
+                            
+                <div class="headerPpal ">
+
+                    <div class="container-fluid textoHeader">
+                        <div class="row">
+                            <div class="col-12 col-xl-12">
+                                <h1>HappyBeer! Choperas Artesanales</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- Main -->
-    <main class="container-fluid mainHome mt-5">
-        <div class="row">
-            <div class="col-12 col-xl-12">
-                <h1>La chopera mas linda del mercado</h1>
-                <img class="VID" data-aos="zoom-in" data-aos-duration="800"
-                data-aos-easing="ease-in-sine" src="img/chop1mini.jpg" alt="Chopera madera">
+        <!-- Main -->
+        <main class="container-fluid mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-xl-12">
+                    <h1>La chopera mas linda del mercado</h1>
+                    <img class="VID" data-aos="zoom-in" data-aos-duration="800"
+                    data-aos-easing="ease-in-sine" src="img/chop1mini.jpg" alt="Chopera madera">
+                </div>
+            </div>   
+            <div class="row mt-5">
+                <div class="col-12 col-xl-6 g-0 bg-black">
+                    <div class=" panelIndex">
+                        <h2>KEEP CALM AND DRINK BEER</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 g-0 bg-black">
+                    <div class="pb-4">
+                        <img src="img/fotopanel.JPG" alt="foto cerveza">
+                    </div>
+                </div>
             </div>
-        </div>   
-        
-    </main>
 
-    <!-- Footer -->
-    <footer>
+            <section class="mainChoperas">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-xl-12 pt-4 pb-4">
+                            <h2>Somos fabricantes de choperas, por eso tenemos el mejor precio y calidad.</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <img src="img/chop3.jpg" class="pb-4" alt="chopera madera">
+                        </div>
+                        <div class="col-12 col-xl-6 colChoperas">
+                            <h5><ul>
+                                <li>Base y tapa de madera veteada muy linda, laqueada de tono brillante.</li><br>
+                                <li>Canilla de chopera simple accion de bronce con posterior tratamiento.</li><br>
+                                <li>Tubo de acrilico con capacidad para un poco mas de 2,0 litros de bebida.</li><br>
+                                <li>Tubo refrigerante de acero inoxidable pulido, relleno de gel refrigerante hermeticamente cerrado, cual al congelarse cumple la funcion de mantener la bebida fria.</li><br>
+                                <p>No dudes en consultar cualquier duda, estamos para responderte! Realizamos envios a todo el pais a traves de MercadoEnvio u otro transporte de su confianza (como ser buspack, via cargo, etc).</p><br>
+                                <button type="button" class="btn btn-primary">Comprar</button>      
+                            </ul></h5>
+                        </div>
+        
+                    </div>
+                </div>
+            </section>
+
+            <div class="suscribe pt-5 pb-5 mt-5">
+                <h1 class="mainSuscribe">Suscribite</h1>
+                <p>Para recibir novedades y las mejores ofertas</p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="mail@email.com"  aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- Footer -->
+     <footer>
         <div class="container-fluid">
             <div class="row footerPrimario">
                 <div class="col-12 col-xl-12 mt-4 mb-4 rrss">
-                    <a href="https://www.facebook.com" target="_blank"><img src="img/fb.png" alt="imagen facebook"></a>
-                    <a href="https://www.instagram.com" target="_blank"><img src="img/ig.png" alt="imagen instagram"></a>
-                    <a href="https://www.twitter.com" target="_blank"><img src="img/tw.png" alt="imagen twitter"></a>
+                    <a href="https://www.facebook.com" target="_blank" ><img src="../img/fb.png" alt="icon facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../img/ig.png" alt="icon instagram"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="../img/tw.png" alt="icon twitter"></a>
                 </div>
             </div>
             <div class="row footerSecundario">
@@ -73,12 +141,12 @@
             </div>
         </div>
     </footer>
-    <!-----Link SCRIPT AOS------->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <!-----Link SCRIPT AOS------->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>   
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
-</body>
-</html>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
+    </body>
+    </html>

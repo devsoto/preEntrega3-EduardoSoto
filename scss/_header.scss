@@ -1,6 +1,16 @@
 @import "base";
 @import "varColores";
 
+nav{
+    li{
+        a{
+            color: white!important;
+            }
+        a:hover{
+            color: orange!important;
+        }
+    }
+}   
 header {
     font-family: $fontPpal;
     position: relative;
